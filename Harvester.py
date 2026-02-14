@@ -9,7 +9,7 @@ import queue
 from collections import deque
 
 # --- Configuration ---
-FORMAT = pyaudio.paInt1
+FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100
 CHUNK = 256  # Reduced to 256 for ~5.8ms latency (lowest without dropouts)
