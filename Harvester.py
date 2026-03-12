@@ -1,7 +1,7 @@
 import streamlit as st
 import pyaudio
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  
 import plotly.graph_objects as go
 import time
 from threading import Thread
